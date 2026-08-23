@@ -1,5 +1,5 @@
 cask "koan-app" do
-  version "0.25.0"
+  version "0.25.1"
   sha256 ""
 
   url "https://github.com/radiosilence/koan/releases/download/v#{version}/Koan.dmg"
