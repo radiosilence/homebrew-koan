@@ -4,10 +4,10 @@ cask "koan-app" do
 
   url "https://github.com/radiosilence/koan/releases/download/v#{version}/Koan.dmg"
   name "koan"
-  desc "Bit-perfect music player for macOS"
+  desc "Bit-perfect music player"
   homepage "https://github.com/radiosilence/koan"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "kōan.app"
 
@@ -16,7 +16,5 @@ cask "koan-app" do
     system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/kōan.app"]
   end
 
-  zap trash: [
-    "~/.config/koan",
-  ]
+  zap trash: "~/.config/koan"
 end
