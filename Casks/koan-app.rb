@@ -1,13 +1,13 @@
 cask "koan-app" do
-  version "0.26.0"
-  sha256 "b76d95f57ef6b86283209dcbe81048bc81460805b06c02280447c23b79f12ca2"
+  version "0.27.0"
+  sha256 "cf1cdc22c3806d9cd7b26d8dd340c88feaf8db58effd60c6e9c49e0409f76401"
 
   url "https://github.com/radiosilence/koan/releases/download/v#{version}/Koan.dmg"
   name "koan"
   desc "Bit-perfect music player for macOS"
   homepage "https://github.com/radiosilence/koan"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: ">= :tahoe"
 
   app "kōan.app"
 
