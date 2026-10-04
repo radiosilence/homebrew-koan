@@ -1,6 +1,6 @@
 cask "koan-app" do
-  version "0.52.0"
-  sha256 "0adf3818df6f6e20cfd4267716b54807578da8abf89ef9f7314cc34928ef01dd"
+  version "0.52.1"
+  sha256 "68418f7d6cdf1b4a787bbf5e55b8b3b3b10634ab5105ea80db7dfa3474245342"
 
   url "https://github.com/radiosilence/koan/releases/download/v#{version}/Koan.dmg"
   name "koan"
